@@ -1,0 +1,47 @@
+*{
+    background-color: #363636;
+    font-family: 'Comic Sans', sans-serif;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: #D2BEF4;
+}
+
+a:hover{
+    color: #FFBF00
+}
+
+/* Header: */
+h1{
+    color: #FFBF00
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/* Table: */
+
+table{
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px;
+}
+
+table li{
+    text-align: left;
+}
