@@ -7,13 +7,13 @@
     <title>Notes</title>
     <meta name="description" content="notes from my bootcamp">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2ef84fb2b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#h1"><i class="fa-thin fa-up"></i></a></li>
+                <li><a href="#h1"><i class="fa-solid fa-up"></i></a></li>
                 <li><a href="#git">Git & GitHub</a></li>
                 <li><a href="#html">HTML</a></li>
             </ul>
@@ -38,9 +38,10 @@
         <tr>
             <td><a href="https://calendly.com/dori-trang/15min">Meeting with Dori</a></td>
         </tr>
+        <!-- Day 2-->
         <tr>
             <td rowspan="6">January 17th</td>
-            <td rowspan="6" class="right" id="git">Git and GitHub</td>
+            <td rowspan="6" id="git">Git and GitHub</td>
             <td>Configure git:
                 <ul>
                     <li>See configurations: git config –list</li>
@@ -54,6 +55,76 @@
         <tr><td> Git add . or git add NameOfTheFile</td></tr>
         <tr><td>Colaborator can clone, if not you have to fork and PR</td></tr>
         <tr><td>After each commit is a new version</td></tr>
+        <!-- Day 3-->
+        <tr>
+            <td rowspan="8">January 18th</td>
+            <td rowspan="6">Git and GitHub</td>
+            <td>Create a branch: git branch nameOfTheBranch </td>
+        </tr>
+        <tr><td>Check the branches I have: git branch</td></tr>
+        <tr><td>Merge: go to the main branch and then git merge nameOfTheBranch</td></tr>
+        <tr><td> Delete a branch: git branch -d nameOfTheBranch</td></tr>
+        <tr><td>Git rm is the opposite of git add</td></tr>
+        <tr><td>
+            <ul>
+                <li><a href="https://git-scm.com/docs/git-tag">Git tag</a></li>
+                <li><a href="https://git-scm.com/docs/git-stash">Git stash</a></li>
+                <li><a href="https://git-scm.com/docs/git-reset">Git reset</a></li>
+                <li><a href="https://git-scm.com/docs/git-revert">Git revert</a></li>
+                <li><a href="https://git-scm.com/docs/git-rebase">Git rebase</a></li>
+            </ul>
+        </td></tr>
+        <tr>
+            <td rowspan="2">Markdown language</td>
+            <td>Go to the next line: 2 spaces</td>
+        </tr>
+        <tr><td>Use code: <br>```css <br>
+            h1{
+                color:blue
+            }<br>
+            ``` <br>
+            It will appear the tags <br>
+            You can use it in any language you want (html, css, js, …)
+            </td></tr>
+            <!-- Day 4-->
+        <tr>
+            <td rowspan="7">January 19th</td>
+            <td rowspan="7" id="html">HTML</td>
+            <td>Head:
+                <ul>
+                    <li>!DOCTYPE : to show that we are using html5</li>
+                    <li>meta… : to find your website easier on google</li>
+                    <li>meta description … : what the website is about</li>
+                    <li>width=device-width : to make your website responsive (size of the device)</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr><td>Entity html : symbols (like copyright)</td></tr>
+        <tr><td><a href="https://fontawesome.com/">Icons Website</a></td></tr>
+        <tr><td> Table: <br>
+            <table>
+                <tr><td>tr</td>
+                <td>To create a row</td></tr>
+                <tr><td>td</td>
+                <td>To write on the table</td></tr>
+                <tr><td>th</td>
+                <td>(in the place o td) to write the header of the table
+                </td></tr>
+                <tr><td>Rowspan</td>
+                <td>to what is written uses more rows (use it as inline CSS)</td></tr>
+                <tr><td>Colspan</td>
+                <td>to what is written uses more columns (use it as an inline CSS)</td></tr>
+            </table>
+        </td></tr>
+        <tr><td>Lists:
+            <ul>
+                <li>ul</li>
+                <li>ol</li>
+                <li>dl (description list): inside you use dt (description title) and dd (description data) - looks like a dictionary</li>
+            </ul>
+        </td></tr>
+        <tr><td><marquee>Marquee tag</marquee></td></tr>
+        <tr><td>shortcut: nav>ul>li*3>a </td></tr>
     </table>
 </body>
 </html>
