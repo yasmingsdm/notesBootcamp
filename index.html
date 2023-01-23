@@ -13,9 +13,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#h1"><i class="fa-solid fa-up"></i></a></li>
+                <li><a href="#h1"><i class="fa-solid fa-arrow-up"></i></a></li>
                 <li><a href="#git">Git & GitHub</a></li>
                 <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
             </ul>
         </nav>
         <h1 id="h1">Full-Stack Integrify Bootcamp</h1>
@@ -88,7 +89,7 @@
             </td></tr>
             <!-- Day 4-->
         <tr>
-            <td rowspan="7">January 19th</td>
+            <td rowspan="7">January 20th</td>
             <td rowspan="7" id="html">HTML</td>
             <td>Head:
                 <ul>
@@ -125,6 +126,67 @@
         </td></tr>
         <tr><td><marquee>Marquee tag</marquee></td></tr>
         <tr><td>shortcut: nav>ul>li*3>a </td></tr>
+        <!-- Day 5-->
+        <tr>
+            <td rowspan="7">January 23rd</td>
+            <td rowspan="7" id="css">CSS</td>
+            <td>Selectors:
+                <ul>
+                    <li>Element: h1</li>
+                    <li>Group: h1, p</li>
+                    <li>Child/ Nested: ul>li>a</li>
+                    <li>Class: .</li>
+                    <li>Id: # </li>
+                    <li>Universal: * </li>
+                    <li>Attribute: input[type=”email”]</li>
+                    <li>Pseudo class: a:hover</li>
+                    <li>Pseudo element: p::after</li>
+                    <li>Descendent: div p (grandchild is included)</li>
+                    <li>Adjacent: div + p (the p just after the div)</li>
+                    <li>Adjacent general: div ~p (all p after the div)</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr><td>Difference between body and * selector:
+            <img src="./images/Screenshot 2023-01-23 at 12.31.35.png" class="css__img" alt="body selector example"/>
+            <img src="./images/Screenshot 2023-01-23 at 12.31.56.png" class="css__img" alt="* selector example"/>
+        </td></tr>
+        <tr><td>Calculate specificity (abc):
+            <ul class="css__specificity">
+                <li>A - number of id</li>
+                <li>B - number of class and pseudo class</li>
+                <li>C - number of element and pseudo element</li>
+            </ul>
+        </td></tr>
+        <tr><td><a href="https://colorhunt.co/">Ideas for colors </a></td></tr>
+        <tr><td>Variables:
+            <img src="./images/Screenshot 2023-01-23 at 11.15.37.png" class="css__img--small" alt="example of variables"/>
+        </td></tr>
+        <tr><td>BEM architecture (block, element, modifier)
+            <ul>
+                <li>Block: the parent
+                    <ul>
+                        <li>You can use digits, letters and hyphen</li>
+                        <li>For example: .card</li>
+                    </ul>
+                </li>
+                <li>Element: the Child
+                    <ul>
+                        <li>You can use digits, letters, hyphen and underscore (to know that is related to the child)</li>
+                        <li>For example: .card__title</li>
+                    </ul>
+                </li>
+                <li> Modifier</li>
+                <ul>
+                    <li>--modifier</li>
+                    <li>For example: .card__title--larger</li>
+                </ul>
+            </ul>
+        </td></tr>
+        <tr><td>Box-sizing: border-box<br>
+            <span>Imagine the code: {width:150px; Padding:10px}</span>
+                If you use box-sizing:border-box the total width will be 150px, if you don’t use it it will be 170px
+        </td></tr>
     </table>
 </body>
 </html>
