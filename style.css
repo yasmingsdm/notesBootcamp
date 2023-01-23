@@ -45,3 +45,30 @@ th, td{
 table li{
     text-align: left;
 }
+
+/* 23rd january: */
+.css__img{
+    width: 700px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.css__specificity{
+    list-style-type: none;
+}
+
+.css__img--small{
+    width:400px;
+    display:block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span{
+    border: 1px solid white;
+    display: block;
+    margin: 10px
+}
