@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 a{
     text-decoration: none;
     color: #D2BEF4;
@@ -49,6 +48,7 @@ table{
     color:white;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 table, th, td{
@@ -89,4 +89,10 @@ span{
     border: 1px solid white;
     display: block;
     margin: 10px
+}
+
+/* Search by: */
+h2{
+    color:#FFBF00;
+    margin: 10px;
 }
