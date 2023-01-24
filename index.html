@@ -13,9 +13,8 @@
     <nav class="navbar">
          <ul>
             <li><a href="#h1"><i class="fa-solid fa-arrow-up"></i></a></li>
-            <li><a href="#git">Git & GitHub</a></li>
-            <li><a href="#html">HTML</a></li>
-            <li><a href="#css">CSS</a></li>
+            <li><a href="#date">Date</a></li>
+            <li><a href="#topic">Topic</a></li>
         </ul>
     </nav>
     <header>
@@ -27,7 +26,6 @@
             <th>Topic</th>
             <th>Content</th>
         </tr>
-        <!--Day 1-->
         <tr>
             <td rowspan="3"> January 16th</td>
             <td rowspan="3"> Onboarding</td>
@@ -39,154 +37,21 @@
         <tr>
             <td><a href="https://calendly.com/dori-trang/15min">Meeting with Dori</a></td>
         </tr>
-        <!-- Day 2-->
-        <tr>
-            <td rowspan="6">January 17th</td>
-            <td rowspan="6" id="git">Git and GitHub</td>
-            <td>Configure git:
-                <ul>
-                    <li>See configurations: git config –list</li>
-                    <li>Configure user name: git config –global user.name “Yasmin”</li>
-                    <li>Configure e-mail: git config –global user.email “yasmin.dm@gmail.com”</li>
-                </ul> 
-            </td>
-        </tr>
-        <tr><td>Git diff : check the changes</td></tr>
-        <tr><td>Git pull = git fetch + git merge</td></tr>
-        <tr><td> Git add . or git add NameOfTheFile</td></tr>
-        <tr><td>Colaborator can clone, if not you have to fork and PR</td></tr>
-        <tr><td>After each commit is a new version</td></tr>
-        <!-- Day 3-->
-        <tr>
-            <td rowspan="8">January 18th</td>
-            <td rowspan="6">Git and GitHub</td>
-            <td>Create a branch: git branch nameOfTheBranch </td>
-        </tr>
-        <tr><td>Check the branches I have: git branch</td></tr>
-        <tr><td>Merge: go to the main branch and then git merge nameOfTheBranch</td></tr>
-        <tr><td> Delete a branch: git branch -d nameOfTheBranch</td></tr>
-        <tr><td>Git rm is the opposite of git add</td></tr>
-        <tr><td>
-            <ul>
-                <li><a href="https://git-scm.com/docs/git-tag">Git tag</a></li>
-                <li><a href="https://git-scm.com/docs/git-stash">Git stash</a></li>
-                <li><a href="https://git-scm.com/docs/git-reset">Git reset</a></li>
-                <li><a href="https://git-scm.com/docs/git-revert">Git revert</a></li>
-                <li><a href="https://git-scm.com/docs/git-rebase">Git rebase</a></li>
-            </ul>
-        </td></tr>
-        <tr>
-            <td rowspan="2">Markdown language</td>
-            <td>Go to the next line: 2 spaces</td>
-        </tr>
-        <tr><td>Use code: <br>```css <br>
-            h1{
-                color:blue
-            }<br>
-            ``` <br>
-            It will appear the tags <br>
-            You can use it in any language you want (html, css, js, …)
-            </td></tr>
-            <!-- Day 4-->
-        <tr>
-            <td rowspan="7">January 20th</td>
-            <td rowspan="7" id="html">HTML</td>
-            <td>Head:
-                <ul>
-                    <li>!DOCTYPE : to show that we are using html5</li>
-                    <li>meta… : to find your website easier on google</li>
-                    <li>meta description … : what the website is about</li>
-                    <li>width=device-width : to make your website responsive (size of the device)</li>
-                </ul> 
-            </td>
-        </tr>
-        <tr><td>Entity html : symbols (like copyright)</td></tr>
-        <tr><td><a href="https://fontawesome.com/">Icons Website</a></td></tr>
-        <tr><td> Table: <br>
-            <table>
-                <tr><td>tr</td>
-                <td>To create a row</td></tr>
-                <tr><td>td</td>
-                <td>To write on the table</td></tr>
-                <tr><td>th</td>
-                <td>(in the place o td) to write the header of the table
-                </td></tr>
-                <tr><td>Rowspan</td>
-                <td>to what is written uses more rows (use it as inline CSS)</td></tr>
-                <tr><td>Colspan</td>
-                <td>to what is written uses more columns (use it as an inline CSS)</td></tr>
-            </table>
-        </td></tr>
-        <tr><td>Lists:
-            <ul>
-                <li>ul</li>
-                <li>ol</li>
-                <li>dl (description list): inside you use dt (description title) and dd (description data) - looks like a dictionary</li>
-            </ul>
-        </td></tr>
-        <tr><td><marquee>Marquee tag</marquee></td></tr>
-        <tr><td>shortcut: nav>ul>li*3>a </td></tr>
-        <!-- Day 5-->
-        <tr>
-            <td rowspan="7">January 23rd</td>
-            <td rowspan="7" id="css">CSS</td>
-            <td>Selectors:
-                <ul>
-                    <li>Element: h1</li>
-                    <li>Group: h1, p</li>
-                    <li>Child/ Nested: ul>li>a</li>
-                    <li>Class: .</li>
-                    <li>Id: # </li>
-                    <li>Universal: * </li>
-                    <li>Attribute: input[type=”email”]</li>
-                    <li>Pseudo class: a:hover</li>
-                    <li>Pseudo element: p::after</li>
-                    <li>Descendent: div p (grandchild is included)</li>
-                    <li>Adjacent: div + p (the p just after the div)</li>
-                    <li>Adjacent general: div ~p (all p after the div)</li>
-                </ul> 
-            </td>
-        </tr>
-        <tr><td>Difference between body and * selector:
-            <img src="./images/Screenshot 2023-01-23 at 12.31.35.png" class="css__img" alt="body selector example"/>
-            <img src="./images/Screenshot 2023-01-23 at 12.31.56.png" class="css__img" alt="* selector example"/>
-        </td></tr>
-        <tr><td>Calculate specificity (abc):
-            <ul class="css__specificity">
-                <li>A - number of id</li>
-                <li>B - number of class and pseudo class</li>
-                <li>C - number of element and pseudo element</li>
-            </ul>
-        </td></tr>
-        <tr><td><a href="https://colorhunt.co/">Ideas for colors </a></td></tr>
-        <tr><td>Variables:
-            <img src="./images/Screenshot 2023-01-23 at 11.15.37.png" class="css__img--small" alt="example of variables"/>
-        </td></tr>
-        <tr><td>BEM architecture (block, element, modifier)
-            <ul>
-                <li>Block: the parent
-                    <ul>
-                        <li>You can use digits, letters and hyphen</li>
-                        <li>For example: .card</li>
-                    </ul>
-                </li>
-                <li>Element: the Child
-                    <ul>
-                        <li>You can use digits, letters, hyphen and underscore (to know that is related to the child)</li>
-                        <li>For example: .card__title</li>
-                    </ul>
-                </li>
-                <li> Modifier</li>
-                <ul>
-                    <li>--modifier</li>
-                    <li>For example: .card__title--larger</li>
-                </ul>
-            </ul>
-        </td></tr>
-        <tr><td>Box-sizing: border-box<br>
-            <span>Imagine the code: {width:150px; Padding:10px}</span>
-                If you use box-sizing:border-box the total width will be 150px, if you don’t use it it will be 170px
-        </td></tr>
     </table>
+    <h2 id="date">Search by date:</h2>
+    <ul>
+        <li><a href="./syllabus/git.html">January 17th</a></li>
+        <li><a href="./syllabus/git.html">January 18th - Git & GitHub</a></li>
+        <li><a href="./syllabus/markdown.html">January 18th - Markdown</a></li>
+        <li><a href="./syllabus/html.html">January 20th</a></li>
+        <li><a href="./syllabus/css.html">January 23rd & 24th</a></li>
+    </ul>
+    <h2 id="topic">Search by topic:</h2>
+    <ul>
+        <li><a href="./syllabus/git.html">Git & GitHub</a></li>
+        <li><a href="./syllabus/markdown.html">Markdown</a></li>
+        <li><a href="./syllabus/html.html">HTML</a></li>
+        <li><a href="./syllabus/css.html">CSS</a></li>
+    </ul>
 </body>
 </html>
